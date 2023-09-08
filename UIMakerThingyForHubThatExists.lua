@@ -1,12 +1,4 @@
---[[
 
-Rayfield Interface Suite
-by Sirius
-
-shlex | Designing + Programming
-iRay  | Programming
-
-]]
 
 
 
