@@ -494,7 +494,7 @@ function RayfieldLibrary:Notify(NotificationSettings)
 		local blurlight = nil
 		if not getgenv().SecureMode then
 			blurlight = Instance.new("DepthOfFieldEffect",game:GetService("Lighting"))
-			blurlight.Enabled = true
+			blurlight.Enabled = false
 			blurlight.FarIntensity = 0
 			blurlight.FocusDistance = 51.6
 			blurlight.InFocusRadius = 50
