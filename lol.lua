@@ -28,7 +28,7 @@ if queue_on_teleport then
         -- Re-persist the script on next teleport
         local queue_on_teleport = queue_on_teleport or syn.queue_on_teleport
         if queue_on_teleport then
-            queue_on_teleport(game:HttpGet("YOUR_SCRIPT_URL_HERE", true))
+            queue_on_teleport(game:HttpGet("https://raw.githubusercontent.com/OhioSteak68/HubThatExists/refs/heads/main/lol.lua", true))
         end
 
         checkAndTeleport()
